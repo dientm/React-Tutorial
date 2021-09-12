@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Development Using Rekit Studio
+
+```
+
+cd react-tutorial
+
+
+nvm use v10
+
+npm install -f rekit-studio
+
+rekit-studio -p 3333
+```
+
+Browser at `localhost:3333` to start developing
